@@ -2,7 +2,8 @@ defmodule FinancialSystem.Money.Currency do
   @moduledoc """
   ISO currencies are composed by code, number and a decimal separator.
 
-  We use atoms to represent 
+  We use atoms to represent currencies and use a details function to get more
+  info if needed.
   """
   @type t() ::
           :BRL
